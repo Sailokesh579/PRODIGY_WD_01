@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #41c430;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content {
+    margin-top: 50px; /* Adjust this margin to prevent content overlap with the fixed navbar */
+    padding: 20px;
+}
+
+.image{
+    position: fixed;
+    height: 100dvh;
+    width: 100%;
+    margin: -25px ;
+}
